@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: grey;
+}
+
+.main {
+    /* margin-left: auto; */
+    margin-top:15% ;
+    margin-left: 20%;
+    /* margin-right: auto; */
+}
+.main td:nth-child(even){
+background: greenyellow;
+}.main td{
+    padding: 10px;
+}
+.main th{
+    padding: 10px;
+}
+.main th:nth-child(even){
+    background: greenyellow;
+}
+.main td:nth-child(odd){
+    background: red;
+}  
+.main th:nth-child(odd){
+    background: red;
+}   

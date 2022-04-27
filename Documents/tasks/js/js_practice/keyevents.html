@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js2</title>
+</head>
+<body onload="myfun1()">
+    <p>enter to get alert on keydown</p>
+    key down<input onkeydown="myfun()"  type="text"><br>
+    key press<input onkeypress="fun()" type="text"><br>
+   
+    key up<input  onkeyup="myFunctionup()" type="text">
+    <br>
+    enter and we will show <input  type="text"  id="input_d" oninput="myFunctioninput()"><br>
+    <p id="a"></p>
+
+    <input type="text" id="myInput" oninput="myFunction()">
+    <script>
+function myfun()
+{
+    alert("you have press the key");
+}
+function fun()
+{
+    alert ("key is pressed");
+}
+function myFunctionup()
+{
+    alert("on key up");
+}
+function myfun1()
+{
+alert("welcome to key world");
+}
+
+function myFunctioninput()
+{
+    var x = document.getElementById("input_d").value;
+
+    document.getElementById("a").innerHTML = "you wrote " +x;
+}
+function myFunction() {
+  var x = document.getElementById("myInput").value;
+  document.getElementById("a").innerHTML = "You wrote: " + x;
+}
+
+    </script>
+</body>
+</html>

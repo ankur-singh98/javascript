@@ -1,0 +1,26 @@
+body{
+    background: greenyellow;
+}
+div{
+    margin: auto;
+width: 60%;
+height: 500px;
+
+
+margin-top: 60px;
+}
+div fieldset{
+   height: 300px;
+}
+span{
+    color: red;
+}
+.h{
+    width: 100%;
+}
+div fieldset{
+    height: 500px;
+}
+#k{
+    background: indianred;
+}

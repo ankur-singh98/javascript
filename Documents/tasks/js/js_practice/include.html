@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Includes</title>
+</head>
+<body>
+    <h1>JavaScript Arrays</h1>
+    <h2>The includes() Method</h2>
+    
+    <p>includes() returns true if an array contains a specified element:</p>
+    
+    <p id="demo"></p>
+    <p id="dem"></p>
+    <p id="de"></p>
+    <p id="d"></p>
+    <p id="e"></p>
+    <script>
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    document.getElementById("demo").innerHTML = fruits.includes("Mango");
+    document.getElementById("dem").innerHTML = fruits.includes("Banana", 3);
+
+    //tostring()
+   
+let text = fruits.toString();
+document.getElementById("de").innerHTML = text;
+
+let tex = "HELLO WORLD";
+let letter = tex.charAt(0);
+
+document.getElementById("demo").innerHTML = letter
+  //substring()
+  let result = tex.substring(1, 4);
+
+document.getElementById("e").innerHTML = result;
+    </script>
+  
+
+</body>
+</html>

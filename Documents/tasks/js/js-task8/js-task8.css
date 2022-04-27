@@ -1,0 +1,60 @@
+#main{
+    height:300px;
+    width: 100%;
+    display: flex;
+}
+#main{
+    height:300px;
+    width: 100%;
+    display: flex; 
+}
+h1{
+    text-align: center;
+}
+#main >div{
+    height: 200px;
+    width: 35%;
+}
+#main > div img{
+    height:100%;
+    width: 100%;
+}
+#cart {
+    width:80%;
+    max-height: 200px;
+    margin-left: 10%;
+}
+table td{
+    height: 200px;
+    width :200px;
+    text-align:center;
+    font-size: 22px;
+}
+table img{
+    height:100%;
+    width: 100%;
+}
+#total_price{
+   float: right;
+}
+#pu{
+    float: right;
+}
+
+/* #cart 
+{
+  display: flex;
+  height: 300px;
+}
+#cart >div{
+    height: 200px;
+    width: 35%;
+}
+#cart > div img{
+    height:100%;
+    width: 100%; */
+/* } */
+/* #cart table{
+    /* padding: 10px;
+    cellsspacing */ 
+/* } */

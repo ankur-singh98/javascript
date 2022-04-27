@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Of</title>
+</head>
+<body>
+    <h1>indexOf() returns the position of a specified value in an array</h1>
+    <h2 id="a"></h2>
+<h3 id="demo"></h3>
+<h3 id="dem"></h3>
+<h3 id="de"></h3>
+<h3 id="d"></h3>
+    <script>
+        const ab = ["banana","anil","anurag"];
+        var  i = ab.indexOf("anil");
+        document.getElementById("a").innerHTML = i;
+//slice()
+        const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const myBest = fruits.slice(-2, -1);
+
+document.getElementById("a").innerHTML = myBest;
+
+
+
+//filter()
+const ages = [32, 33, 16, 40];
+
+document.getElementById("demo").innerHTML = ages.filter(checkAdult);
+
+function checkAdult(agess) {
+  return agess >= 30;
+
+}
+// find()
+
+const ageee = [3, 10, 18, 20];
+
+document.getElementById("dem").innerHTML = ageee.find(checkAge);
+
+function checkAge(age) {
+  return age > 8;
+}
+//map()
+const numbers = [4, 9, 144  , 25];
+document.getElementById("de").innerHTML = numbers.map(Math.sqrt);//Math.sqrt =find the square of each element
+  
+// map next example by combining the two string 
+const persons = [
+  {firstname : "ankur", lastname: "singh"},
+  {firstname : "anil", lastname: "yadav"},
+  {firstname : "anurag", lastname: "shukla"}
+];
+document.getElementById("d").innerHTML = persons.map(getFullName);
+
+function getFullName(item) {
+  return [item.firstname,item.lastname].join(" ");//use to join the two string
+}
+
+  
+  </script>
+</body>
+</html>
+
+
+
+
